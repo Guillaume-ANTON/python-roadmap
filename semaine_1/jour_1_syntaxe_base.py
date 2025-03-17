@@ -194,3 +194,28 @@ else:
 """
 x = 200
 print(isinstance(x, int)) """
+
+
+
+#Convertiseur Celsius/Fahrenheit
+
+def celsius_to_fahrenheit(celsius):
+    return (celsius * 9/5) +32
+
+def fahrenheit_to_celsius(fahrenheit):
+    return(fahrenheit - 32) (5/9)
+
+print("Celsius ou Fahrenheit :")
+unite= input().lower()
+
+print("Entrez la température à convertir :")
+temperature= float(input())
+
+if unite == "celsius":
+    result= celsius_to_fahrenheit(temperature)
+    print(f"{temperature}°C = {result}°F")
+elif unite == "fahrenheit":
+    result= fahrenheit_to_celsius(temperature)
+    print(f"{temperature}°F = {result}°C")
+else:
+    print("Unité invalide")
