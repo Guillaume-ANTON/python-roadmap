@@ -1,0 +1,14 @@
+[
+    {
+        "nom": "ANTON",
+        "prenom": "Guillaume",
+        "age": "25",
+        "ville": "Madrid"
+    },
+    {
+        "nom": "DUPONT",
+        "prenom": "Antoine",
+        "age": "30",
+        "ville": "Toulouse"
+    }
+]
